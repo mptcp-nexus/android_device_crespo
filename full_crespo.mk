@@ -111,6 +111,11 @@ PRODUCT_COPY_FILES += \
 	gapps/usr/srec/en-US/contacts.abnf:system/usr/srec/en-US/contacts.abnf \
 	gapps/usr/srec/en-US/dict:system/usr/srec/en-US/dict
 
+# Root
+PRODUCT_PACKAGES += \
+	Superuser \
+	su
+
 # MPTCP
 PRODUCT_PACKAGES += \
        MPTCPControl
